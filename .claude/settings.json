@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__media_server__box_tail_file",
+      "mcp__media_server__box_read_file",
+      "mcp__github__pull_request_read",
+      "Bash(git fetch *)",
+      "mcp__media_server",
+      "mcp__github",
+      "mcp__claude-code-remote",
+      "Bash(git *)",
+      "Bash(gh api *)",
+      "Bash(python3 *)",
+      "Bash(npx *)"
+    ]
+  }
+}
