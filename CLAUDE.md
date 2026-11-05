@@ -14,3 +14,14 @@
   directing any other agent (Codex, sub-agents, other sessions), run Matt Pocock's `ask-matt` to
   pick the flow, and write every delegation brief with his `writing-for-agents` skill. Here,
   run the repo's own `ask-matt` skill (`.claude/skills/ask-matt`) yourself; no need to ask Marc.
+- **Critical path first; spend usage on building and running (Marc, Nov 5).** When Marc sets a
+  priority order or says "ASAP", work only on the current step until its done-condition is met,
+  then report the result, the numbers that decide pass or fail, and the next step. Run steps Marc
+  pre-approved back to back without asking. Park side work (reviews, refactors, test-harness
+  polish, side fixes) in a list at the end of the report; take one up early only when it blocks
+  the current step, naming the step and why. In that mode, and whenever usage is limited: work
+  alone unless Marc asks for helper agents; make a long test one unattended command that writes
+  a result file, hand Marc the command, read the result once and leave the run unwatched; and
+  install changes that already passed their tests without a re-review. Stop and report at once
+  on any failure or safety concern: speed never overrides privacy, microphone, call or cleanup
+  rules.
