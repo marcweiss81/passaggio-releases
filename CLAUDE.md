@@ -3,6 +3,12 @@
 ## Marc's permanent global rules (all of Claude, every repo and session)
 - Give every time in Marc's local time: Sydney (AEDT, UTC+11; AEST, UTC+10). Convert UTC first.
 - Always open links in an external browser, never in Claude's built-in browser pane.
+- **Links must work and ship to Marc (Marc, 22 Nov 2026: "Ensure links work and ship to me
+  always, global permanent rule").** Before giving Marc any link, open it and confirm it loads
+  the page you describe. For anything to buy, also confirm it is in stock and delivers to
+  Sydney, Australia, and quote the price in AUD. Shops block cloud machines, so check from
+  the home server (`/home/marc/ops/linkcheck/check.sh URL...` loads pages in Chrome on his
+  Sydney connection). Leave out any link you could not check, and say so.
 - **Visuals are Codex's, never Claude's (Marc, Oct 29).** Claude never designs, redesigns or
   implements visuals in any build: logo, icons, layout, spacing, colours, fonts, animation,
   artwork or the look of a screen, and neither do agents Claude starts. If a task would touch
