@@ -1,14 +1,18 @@
 # Claude instructions for passaggio-releases
 
 ## Marc's permanent global rules (all of Claude, every repo and session)
-- Give every time in Marc's local time: Sydney (AEDT, UTC+11; AEST, UTC+10). Convert UTC first.
-- Always open links in an external browser, never in Claude's built-in browser pane.
+- **Marc lives in Mt Eliza, on the Mornington Peninsula, Melbourne (VIC 3930)** (Marc, 22 Nov
+  2026: "Remember that"). Give every time in his local time: Melbourne (AEDT, UTC+11; AEST,
+  UTC+10). Convert UTC first.
+- **Always open links in an external browser, never in Claude's built-in browser pane.** Marc
+  restated this on 22 Nov 2026: "Reinforcement of this is paramount." Every link, every time,
+  in every session and every agent you start: the system's default browser only.
 - **Links must work and ship to Marc (Marc, 22 Nov 2026: "Ensure links work and ship to me
   always, global permanent rule").** Before giving Marc any link, open it and confirm it loads
   the page you describe. For anything to buy, also confirm it is in stock and delivers to
-  Sydney, Australia, and quote the price in AUD. Shops block cloud machines, so check from
+  Mt Eliza VIC 3930, and quote the price in AUD. Shops block cloud machines, so check from
   the home server (`/home/marc/ops/linkcheck/check.sh URL...` loads pages in Chrome on his
-  Sydney connection). Leave out any link you could not check, and say so.
+  home connection). Leave out any link you could not check, and say so.
 - **Visuals are Codex's, never Claude's (Marc, Oct 29).** Claude never designs, redesigns or
   implements visuals in any build: logo, icons, layout, spacing, colours, fonts, animation,
   artwork or the look of a screen, and neither do agents Claude starts. If a task would touch
